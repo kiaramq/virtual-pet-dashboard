@@ -32,6 +32,7 @@
 
 ## Heimildir og söfn notuð.
 - **Assets frá OpenGameArt.org**: Dog sprites og emote myndir
+- **Ezgif.com**: Til að klippa Dog Sprite
 - **D3.js library**: Fyrir SVG graphics og animation
 - **Google Fonts**: "Press Start 2P" fyrir retro gaming úrlit
 - **HTML5/CSS3**: Fyrir grunnuppbyggingu og stíl
