@@ -47,4 +47,25 @@ https://github.com/user-attachments/assets/5595cece-b147-444e-af3c-4aa960e5e09f
 - **Custom CSS**: Retro gaming theme með pixel art aesthetics
 
   
-## Útkoman. Hvernig til tókst, hver væru næstu skref ef haldið væri áfram þróun frumgerðar.
+## Útkoman. Hvernig til tókst. 
+- Öll fjögur aðalatriði (Feed, Play, Clean, Sleep) virka eins og ætlað var
+- Tölfræðikerfið uppfærist rétt og sýnir breytingar í rauntíma
+- Activity Log gefur skýra vísbendingu um ástand dýrsins
+
+## Hver væru næstu skref ef haldið væri áfram þróun frumgerðar.
+- **Sound effects**: Bæta við hljóðahrifum fyrir aðgerðir og viðbrögð.
+- **Save/Load**: Geyma ástand dýrsins í localStorage.
+- **Better assets**
+- **Multiple pets**: Möguleiki á að eiga leiri en eitt dýr.
+- **Leveling system**: XP kefri og level ups
+- **Pet accessories**: Hálsmen, hattar eða önnur fylgihlutir
+
+
+
+
+
+
+
+
+
+
