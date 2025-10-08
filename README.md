@@ -28,7 +28,14 @@
    
 ## Vefslóð á GitHub sem hýsir vefappið (ef það á við).
 
+
+
 ## Myndir og myndband (mp4) af frumgerð og notkun þess.
+<img width="1470" height="836" alt="Screenshot 2025-10-08 at 12 42 43" src="https://github.com/user-attachments/assets/060095f0-b8c0-4b62-bb4c-765bc5de38b2" />
+
+https://github.com/user-attachments/assets/5595cece-b147-444e-af3c-4aa960e5e09f
+
+
 
 ## Heimildir og söfn notuð.
 - **Assets frá OpenGameArt.org**: Dog sprites og emote myndir
