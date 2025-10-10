@@ -71,9 +71,7 @@ https://github.com/user-attachments/assets/55974bf8-2a67-4de1-bed7-e14bc718cf58
 
   
 ## Útkoman. Hvernig til tókst. 
-- Öll fjögur aðalatriði (Feed, Play, Clean, Sleep) virka eins og ætlað var
-- Tölfræðikerfið uppfærist rétt og sýnir breytingar í rauntíma
-- Activity Log gefur skýra vísbendingu um ástand dýrsins
+Verkefnið tókst vel og öll helstu virkni er til staðar. Notendur geta séð um sýndarhund með því að fóðra, leika við, þrífa og láta hann sofa, og tölfræðin uppfærast í rauntíma.
 
 ## Hver væru næstu skref ef haldið væri áfram þróun frumgerðar.
 - **Sound effects**: Bæta við hljóðahrifum fyrir aðgerðir og viðbrögð.
