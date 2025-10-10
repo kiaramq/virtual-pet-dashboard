@@ -1,0 +1,11 @@
+Model Information:
+* title:	Voxel Dog Pet
+* source:	https://sketchfab.com/3d-models/voxel-dog-pet-5c92abb76c4c48a482d8a446f5bc81be
+* author:	rbreve (https://sketchfab.com/rbreve)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Voxel Dog Pet" (https://sketchfab.com/3d-models/voxel-dog-pet-5c92abb76c4c48a482d8a446f5bc81be) by rbreve (https://sketchfab.com/rbreve) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Dashboard</title> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- google font -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+<body>
+    <!-- main container -->
+    <div class="dashboard-container">
+        <header>
+            <h1>Welcome to your virtual pet!</h1>
+        </header>
+        
+        <!-- main content area with 3 sections -->
+        <div class="dashboard-content">
+            <!-- pet display area -->
+            <div class="pet-display">
+                <div id="pet-container"></div>
+                
+                <!-- buttons to interact with the pet -->
+                <div class="pet-controls">
+                    <button id="feed-btn" class="control-btn">
+                        <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="currentColor" d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            <circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path fill="currentColor" d="M8 12h8M12 8v8"/>
+                        </svg>
+                        Feed
+                    </button> <!-- feed the pet -->
+                    <button id="play-btn" class="control-btn">
+                        <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                            <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path fill="currentColor" d="M8 12l8-4v8l-8-4z"/>
+                        </svg>
+                        Play
+                    </button> <!-- play with pet -->
+                    <button id="clean-btn" class="control-btn">
+                        <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="none" stroke="currentColor" stroke-width="2" d="M3 6h18l-2 13H5L3 6z"/>
+                            <path fill="currentColor" d="M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2"/>
+                            <circle cx="12" cy="14" r="2" fill="currentColor"/>
+                        </svg>
+                        Clean
+                    </button> <!-- clean the pet -->
+                    <button id="sleep-btn" class="control-btn">
+                        <svg class="btn-icon" viewBox="0 0 24 24" width="16" height="16">
+                            <path fill="currentColor" d="M12 3a6.364 6.364 0 0 0 9 9 9 9 0 1 1-9-9z"/>
+                            <path fill="none" stroke="currentColor" stroke-width="2" d="M19 6l-3 3M22 6l-3 3"/>
+                        </svg>
+                        Sleep
+                    </button> <!-- put pet to sleep -->
+                </div>
+            </div>
+            
+            <!-- stats display area -->
+            <div class="stats-panel">
+                <h2>Pet Stats</h2>
+                <div id="stats-container"></div>
+            </div>
+            
+            <!-- activity log area -->
+            <div class="activity-panel">
+                <h2>Activity Log</h2>
+                <!-- Decorative paw prints -->
+                <div class="paw-prints">
+                    <svg class="paw-print" width="20" height="20" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Main paw pad -->
+                        <circle cx="50" cy="65" r="20" fill="#7a6baa" opacity="0.6"/>
+                        <!-- Toe pads -->
+                        <circle cx="30" cy="40" r="10" fill="#7a6baa" opacity="0.6"/>
+                        <circle cx="50" cy="35" r="10" fill="#7a6baa" opacity="0.6"/>
+                        <circle cx="70" cy="40" r="10" fill="#7a6baa" opacity="0.6"/>
+                    </svg>
+                    <svg class="paw-print" width="16" height="16" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Main paw pad -->
+                        <circle cx="50" cy="65" r="20" fill="#9d8cc9" opacity="0.4"/>
+                        <!-- Toe pads -->
+                        <circle cx="30" cy="40" r="10" fill="#9d8cc9" opacity="0.4"/>
+                        <circle cx="50" cy="35" r="10" fill="#9d8cc9" opacity="0.4"/>
+                        <circle cx="70" cy="40" r="10" fill="#9d8cc9" opacity="0.4"/>
+                    </svg>
+                </div>
+                <div id="activity-log"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- scripts -->
+    <script src="js/pet.js"></script> 
+    <script src="js/pet3d.js"></script>
+    <script src="js/dashboard.js"></script> 
+    <script src="js/app.js"></script> 
+</body>
+</html>
