@@ -8,7 +8,8 @@
 
 ### Eiginleikar:
 - **Fjögur tölfræðigildi**: Hungur, hamingja, orka og hreinlæti
-- **Þrjár tegundir hunda**: Brown dog, Black dog og White dog
+- **3d hundur**: Hægt að hreyfa myndavélina í kringum hundinn með músinni
+- **Touch support**: Hægt að stjórna 3D hundinum með snertingu á snjalltækjum
 - **Gagnvirkir hnappar**: Feed, Play, Clean og Sleep
 - **Tilfinningaávísanir**: Emore kerfi sem sýnir viðbrögð dýrsins
 - **Virkni fyrir tíma**: Tölfræðin lækkar sjálfkrafa á 10 sekúnda fresti
@@ -17,29 +18,51 @@
 
 ### Leiðbeiningar
 1. Opnaðu `index.html`í vafra
-2. Veldu hund með Previous/Next hnöppum
-3. Notaðu aðgerðahnappa til að:
+2. Notaðu aðgerðahnappa til að:
    - **Feed**: Minnkar hungur en eyðir orku
    - **Play**: Eykur hamingju en eyðir orku og eykur hungur
    - **Clean**: Eykur hreinlæti og hamingju aðeins
    - **Sleep**: Skipti á milli svefns og vöku - endurhemtir orku í svefni
-4. Fylgstu með tölfræðisúlunum sem uppfærast í rauntíma
-5. Athugaðu athafnaskrif fyrir sögu aðgerða
-   
+3. Fylgstu með tölfræðisúlunum sem uppfærast í rauntíma
+4. Athugaðu athafnaskrif fyrir sögu aðgerða
+
+## Mappa og Skráauppbygging
+```
+index.html
+css/
+  style.css
+js/
+  app.js
+  dashboard.js
+  pet.js
+  pet3d.js
+assets/
+  dog/
+    scene.gltf
+    scene.bin
+    license.txt
+  Emotes/
+    left/
+      [emote myndir]
+```
+
+
 ## Vefslóð á GitHub sem hýsir vefappið (ef það á við).
 
 
 
 ## Myndir og myndband (mp4) af frumgerð og notkun þess.
-<img width="1470" height="836" alt="Screenshot 2025-10-08 at 12 42 43" src="https://github.com/user-attachments/assets/060095f0-b8c0-4b62-bb4c-765bc5de38b2" />
+<img width="1470" height="836" alt="Screenshot 2025-10-10 at 09 41 37" src="https://github.com/user-attachments/assets/d74007c8-d2de-4866-83bb-e4bd782d0d84" />
 
-https://github.com/user-attachments/assets/5595cece-b147-444e-af3c-4aa960e5e09f
+https://github.com/user-attachments/assets/55974bf8-2a67-4de1-bed7-e14bc718cf58
+
+
 
 
 
 ## Heimildir og söfn notuð.
-- **Assets frá OpenGameArt.org**: Dog sprites og emote myndir
-- **Ezgif.com**: Til að klippa Dog Sprite
+- **Assets frá OpenGameArt.org**: Emote myndir
+- **Scetchfab.com**: Fyrir 3d hund
 - **D3.js library**: Fyrir SVG graphics og animation
 - **Google Fonts**: "Press Start 2P" fyrir retro gaming úrlit
 - **HTML5/CSS3**: Fyrir grunnuppbyggingu og stíl
